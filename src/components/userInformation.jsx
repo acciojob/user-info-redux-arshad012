@@ -14,7 +14,7 @@ const UserInformation = () => {
             <input type="text" id="name" onInput={e => dispatch(addName(e.target.value))} />
             <br />
             <label htmlFor="email">Email:</label>
-            <input type="text" id="email" onInput={e => dispatch(addEmail(e.target.value))} />
+            <input type="email" id="email" onInput={e => dispatch(addEmail(e.target.value))} />
 
             <p>Current values in store:</p>
             <p>Name - {name}</p>
